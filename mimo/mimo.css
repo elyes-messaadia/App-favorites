@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8d60e266;
+    color: #333;
+}
+
+/* Revoir tout le CSS pour ce fichier, changer la taille des images, 
+en choisir d'autres, intégrer une vidéo avec une option pour demute la vidéo, ajouter du contenu pour les reviews et le téléchargement.  */
+
+header {
+    background-color: lightskyblue;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    padding: 2em;
+}
+
+main .description, 
+main .video-presentation, 
+main .user-reviews, 
+main .download {
+    margin-bottom: 2em;
+}
+
+main .description {
+    text-align: center;
+}
+
+main .description img {
+    max-width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+
+main .video-presentation {
+    text-align: center;
+}
+
+main .video-presentation video {
+    max-width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+
+main .user-reviews {
+    background-color: #e9ecef;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+main .user-reviews h2 {
+    text-align: center;
+}
+
+main .user-reviews .review {
+    margin-bottom: 1em;
+}
+
+main .user-reviews .review h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #4CAF50;
+}
+
+main .user-reviews .review p {
+    margin: 0.5em 0 0;
+}
+
+main .download {
+    text-align: center;
+}
+
+main .download a {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 1em 2em;
+    background-color: #25274600;
+    color: #4CAF50;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main .download a:hover {
+    background-color: #8d60e266
+}
+
+/* Changement à faire au niveau du footer les 3 autres fichiers CSS, changer en responsive, les couleurs, la barre de navigation sur le côté et le footer en bas de page. */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 0.8em;
+    }
+
+footer a:hover {
+    background-color: white;
+    color: #333;
+}

@@ -1,0 +1,124 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #d4af37;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #000;
+    color: #d4af37;
+    text-align: center;
+    padding: 1em;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    padding: 1em;
+    flex: 1;
+}
+
+main .description {
+    text-align: center;
+}
+
+main .description img {
+    max-width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+
+main .download {
+    text-align: center;
+    margin: 2em 0;
+}
+
+main .download a {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 1em;
+    background-color: #d4af37;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main .download a:hover {
+    background-color: #a87e2d;
+}
+
+footer {
+    background-color: #000;
+    color: #d4af37;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+footer .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer nav {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+footer a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Changement à faire au niveau du footer les 3 autres fichiers CSS, changer en responsive, les couleurs, la barre de navigation sur le côté et le footer en bas de page. */
+
+/* footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 0.8em;
+    }
+
+footer a:hover {
+    background-color: white;
+    color: #333;
+} */
+
